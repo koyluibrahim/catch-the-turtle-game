@@ -51,28 +51,6 @@ def setup_turtles():
     for x in x_coordinates:
         for y in y_coordinates:
             make_turtle(x, y)
-    '''
-    make_turtle(-20,20)
-    make_turtle(-10,20)
-    make_turtle(-0,20)
-    make_turtle(10,20)
-    make_turtle(20,20)
-    make_turtle(-20,10)
-    make_turtle(-10,10)
-    make_turtle(-0,10)
-    make_turtle(10,10)
-    make_turtle(20,10)
-    make_turtle(-20,0)
-    make_turtle(-10,0)
-    make_turtle(-0,0)
-    make_turtle(10,0)
-    make_turtle(20,0)
-    make_turtle(-20,-10)
-    make_turtle(-10,-10)
-    make_turtle(-0,-10)
-    make_turtle(10,-10)
-    make_turtle(20,-10)
-    '''
 
 def hide_turtles():
     for turtle in turtle_list:
